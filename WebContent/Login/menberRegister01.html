@@ -1,0 +1,44 @@
+<html>
+	<Head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>註冊/登入</title>
+		<link href="../css/bootstrap.css" rel="stylesheet">
+		<link href="../css/menberRegister02.css" rel="stylesheet">
+		
+	</head>
+<body>
+	<div class="form" ><!-------------------- Start form -------------------->
+	
+		<ul class="tab-group">
+			<li class="tab active"><a>登入/註冊</a></li>
+		</ul>
+         
+        <div>
+        <!-------------------- start view FB div -------------------->
+        	<div id="sp">
+	        	<h1>請先登入Facebook</h1>
+	        	
+	        	<div align="center">
+		        	<fb:login-button scope="public_profile,email" onlogin="checkLoginState()"
+		               data-max-rows="1" data-size="xlarge" data-show-faces="false" id="member"
+		               data-auto-logout-link="true" >
+		        	</fb:login-button>	                
+	            </div>
+	            
+	            <br/>
+	            
+	            <button type="button" class="button button-block" align="center" onclick="javascript:location.href='../index.jsp'">回首頁</button>
+	            
+            </div> <!-------------------- End view FB div -------------------->
+		</div>
+	</div><!-------------------- End form -------------------->
+
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/menberRegister02.js"></script>
+<script src="../js/cakeIcon.js"></script>
+<script src="../js/fblogin.js"></script>
+
+</body>
+</html>

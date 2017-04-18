@@ -1,0 +1,95 @@
+
+
+/*overTime.html*/
+.tab-group li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 28px;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+.tab-group li a:hover {
+	 background: #FF0000;
+	 color: #ffffff;
+}
+.tab-group .active a {
+	float:left;
+	background: #FF2D2D;
+	color: #ffffff;
+}
+
+/*plsLogin.html*/
+#plslogin li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 28px;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+#plslogin li a:hover {
+	 background: #F75000;
+	 color: #ffffff;
+}
+#plslogin .active a {
+	float:left;
+	background:	#FF5809;
+	color: #ffffff;
+}
+
+/*alreadyMember.html*/
+
+#already li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 28px;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+#already li a:hover {
+	 background: #00A600;
+	 color: #ffffff;
+}
+#already .active a {
+	float:left;
+	background: #00BB00;
+	color: #ffffff;
+}
+
+
+.modal-header h4 {
+	text-align: center;
+	font-size: 30px;
+}
+.modal-dialog{
+	margin-top:15%;
+}
+.modal-content{
+	background-color: rgba(19, 35, 47, 0.9);
+}
+.tab-group {
+	list-style: none;
+	padding: 0;
+}
+.tab-group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*.tab-content > div:last-child {
+  display: none;
+}*/
+p{
+text-align:center;
+font-size: 25px;
+color: #ffffff;
+}
+
+.glyphicon{
+	vertical-align:middle;
+}
